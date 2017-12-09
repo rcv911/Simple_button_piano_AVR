@@ -2,13 +2,15 @@
 
 Simple piano on ATmega16 using 7 buttons (PINB Atmega16) and speaker (PINA2 - GND ATmega16). It can be PC speaker. Datasheet of Atmega16 you can find in another [project](https://github.com/rcv911/Simple_Timer_AVR) or on [official page](http://www.microchip.com/design-centers/8-bit).
 ###### Musical scale in Herz
-> Do  - 261.6 Hz
-> Re  - 293.7 Hz
-> Mi  - 329.6 Hz
-> Fa  - 349.2 Hz
-> Sol - 392.0 Hz
-> La  - 440.0 Hz
-> Ti  - 493.9 Hz   
+```
+Do  - 261.6 Hz
+Re  - 293.7 Hz
+Mi  - 329.6 Hz
+Fa  - 349.2 Hz
+Sol - 392.0 Hz
+La  - 440.0 Hz
+Ti  - 493.9 Hz  
+``` 
 
 
 ## Motivation
