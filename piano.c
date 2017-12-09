@@ -30,7 +30,7 @@ void main(void) {
 
    OCR1A = 0;
 
-   TIMSK|=(1<<OCIE1A); // Enable compare interrupt on timer 1
+   TIMSK|=(1<<OCIE1A); // Enable compare interrupt on 16bit timer 1
    TCNT1=0; // Init couter
 
    asm("sei"); // Enable global interrupts
